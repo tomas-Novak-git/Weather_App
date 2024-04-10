@@ -8,7 +8,7 @@ function App() {
     <>
   <Weather />
   <div className='footer'>
-    <p>Small weather app by </p><a href='tnpage.vercel.app' target='_blank'>T.N.</a>
+    <p>Small weather app by </p><a href='https://tnpage.vercel.app' target='_blank'>T.N.</a>
   </div>
     </>
   )
