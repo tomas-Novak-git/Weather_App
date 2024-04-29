@@ -20,7 +20,7 @@ const [result, setResult] = React.useState([{}]);
 async function search(event) {
   if (event.key === "Enter" && value !== "") {
     fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${value}&appid=${API_KEY}`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${value}&appid=${API_KEY}`
     )
       .then((response) => {
         if (!response.ok) {
