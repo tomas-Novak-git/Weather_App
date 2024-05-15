@@ -25,22 +25,19 @@ input {
   max-width: 50%;
   border-radius: 8px;
   font-weight: 500;
-  box-shadow: 0px 6px 6px rgba(197, 229, 235, 0.8);
+  box-shadow: 0px 6px 4px 0 rgba(130, 131, 130, 0.8);
 }
-.weather {
-  margin-top: auto;
-  margin-bottom: auto;
-}
+
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #74aeff8f;
+  background-color: #f7f8f9;
   padding: 16px 16px;
   margin-top: 2rem;
   border-radius: 8px;
-  box-shadow: 0px 6px 6px rgba(196, 197, 197, 0.8);
+  box-shadow: 0px 6px 6px rgba(159, 160, 160, 0.8);
 }
 p {
   margin: 0;

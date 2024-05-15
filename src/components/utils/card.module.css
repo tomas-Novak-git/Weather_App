@@ -3,14 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 8px 12px;
-  background: rgb(232, 232, 232);
+  background: rgb(255, 255, 255);
   background: linear-gradient(
     138deg,
-    rgba(244, 244, 244, 0.592874649859944) 0%,
+    rgba(244, 244, 244, 0.899) 0%,
     rgba(232, 232, 232, 0.7497373949579832) 100%
   );
   border-radius: 8px;
-  box-shadow: 2px 2px 4px 1px rgba(158, 158, 158, 0.75);
+  box-shadow: 2px 2px 4px 1px rgba(158, 158, 158, 0.488);
   margin: 8px 0px;
 }
 
