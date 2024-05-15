@@ -1,0 +1,12 @@
+.resultHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  gap: 8px;
+  padding: 16px 16px;
+  font-size: 1.5rem;
+}
+.resultName {
+  font-weight: 700;
+}

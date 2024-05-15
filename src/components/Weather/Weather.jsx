@@ -55,29 +55,39 @@ const Weather = () => {
 
   return (
     <>
-      <div className={styles.heading}>
-        <h1>Weather app</h1>
-        <input
-          onKeyDown={search}
-          className={styles.inputWindow}
-          id='weather-search'
-          type='text'
-          value={value}
-          onChange={(event) => {
-            setValue(event.target.value);
-          }}
-          placeholder='Location?'
-          required={true}
-        />
-      </div>
-      <div className={styles.wrapper}>
-        <WeatherResultContext.Provider value={result}>
-          <Result />
-          <WeatherSituation />
-          <CurrentTemperature />
-          <MinMaxTemp />
-          <Humidity />
-        </WeatherResultContext.Provider>
+      <div className={styles.weather}>
+        <div className={styles.heading}>
+          <div className={styles.headingGroup}>
+            <img
+              src='src/assets/weatherIcon.svg'
+              alt='weather'
+            />
+            <h1>Weather app</h1>
+          </div>
+          <input
+            onKeyDown={search}
+            className={styles.inputWindow}
+            id='weather-search'
+            type='text'
+            value={value}
+            onChange={(event) => {
+              setValue(event.target.value);
+            }}
+            placeholder='Location?'
+            required={true}
+          />
+        </div>
+        <div className={styles.wrapper}>
+          <WeatherResultContext.Provider value={result}>
+            <Result />
+            <div>
+              <WeatherSituation />
+              <CurrentTemperature />
+              <MinMaxTemp />
+              <Humidity />
+            </div>
+          </WeatherResultContext.Provider>
+        </div>
       </div>
     </>
   );
