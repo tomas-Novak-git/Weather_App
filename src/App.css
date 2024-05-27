@@ -10,3 +10,11 @@
   margin: 0 auto;
   padding-top: 1em;
 }
+.footer p {
+  color: black;
+}
+.footer a {
+  color: black;
+  font-size: 2rem;
+  text-decoration: underline;
+}
